@@ -9,7 +9,7 @@ def load_library(file_path)
   emoticon_hash['get_meaning'] = {}
   emoticon_hash['get_emoticon'] = {}
   
-  
+  emoticons.each do |
   
   emoticon_hash
 end
