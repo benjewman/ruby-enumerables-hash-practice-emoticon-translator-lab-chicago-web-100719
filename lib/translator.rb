@@ -12,6 +12,7 @@ def load_library(file_path)
   emoticons.each do |word, emoticon_set|
   emoticon_hash[get_emoticon][emoticon_set.first] = emoticon_set.last 
   emoticon_hash[get_meaning][emoticon_set.last] = word
+end
   emoticon_hash
 end
 
